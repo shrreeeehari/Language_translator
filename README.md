@@ -11,6 +11,11 @@ The project aims to achieve the following goals in sequential order:
 The program translator.py is capable of converting any text from English to any other language or from any other laguage to English.<br>
 <br>
 <img src="images/language_codes.jpg" height="600">
-<br>
+
 In translator.py, <API key> and <URL> are to be replaced with the API key and the URL from your instance of Watson Language Translator service.
+  
+The program takes two inputs: <br>
+  (i) A language code pair - which has language codes of the language from which the translation is required and the language to which the translation is required, both separated       by a '-' . <br>
+  For example, the input en-ru implies that the user wishes to translate text from English to Russian while the input ru-en means that the translation would happen from Russian to   English.<br>
+ (ii) The second input would be the text that the user wishes to translate. 
 
