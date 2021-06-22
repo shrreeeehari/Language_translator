@@ -19,3 +19,4 @@ The program takes two inputs: <br>
   For example, the input en-ru implies that the user wishes to translate text from English to Russian while the input ru-en means that the translation would happen from Russian to   English.<br>
  (ii) The second input would be the text that the user wishes to translate. 
 
+<h3>Unit testing</h3>
