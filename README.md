@@ -12,7 +12,7 @@ The program translator.py is capable of converting any text from English to any 
 <br>
 <img src="images/language_codes.jpg" height="600">
 
-In translator.py, <API key> and <URL> are to be replaced with the API key and the URL from your instance of Watson Language Translator service.
+In translator.py, <code>API_key</code> and <code>URL</code> are to be replaced with the API key and the URL from your instance of Watson Language Translator service.
   
 The program takes two inputs: <br>
   (i) A language code pair - which has language codes of the language from which the translation is required and the language to which the translation is required, both separated       by a '-' . <br>
