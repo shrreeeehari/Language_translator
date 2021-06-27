@@ -28,4 +28,4 @@ START = 'n": '
 END = '}], '
 END1 = '}'
 
-translator(input_text,code_pair)
+translator(input_text, code_pair)
