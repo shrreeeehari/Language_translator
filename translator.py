@@ -8,7 +8,6 @@ language_translator = LanguageTranslatorV3(
     authenticator=authenticator
 )
 
-
 def translator(text_input,pair_code):
 
     language_translator.set_service_url('URL')
