@@ -19,10 +19,10 @@ def translator(text_input,pair_code):
     res = (output[output.find(START)+len(START):output.rfind(END)])
     res1 = (output[output.find(END)+len(END):output.rfind(END1)])
     print("\nTranslation: ",res)
-    print(res1)
+    print("\n",res1)
 
 
-code_pair = input("Enter the language code pair (eg. de-en) : ")
+code_pair = input("\nEnter the language code pair (eg. de-en) : ")
 input_text = input("Enter text to be translated: ")
 START = 'n": '
 END = '}], '
